@@ -1,0 +1,345 @@
+<html>
+    <head>
+        <title>Contact</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link rel="stylesheet" href="npm i bootstrap-icons ">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+ body{
+    background-color: #6fcaea;
+   
+ }           
+        
+#id{ 
+    
+    width:auto;
+} 
+
+h1,u{
+                text-align: center;
+                font-weight: bold;
+                letter-spacing: 2px;
+                content: '';
+                display:block;
+                margin: 10px auto;
+                color:rgb(39, 37, 37);
+}
+
+main.table {
+    width:100%;
+    height:100%;
+    background-color: #fff5;
+    backdrop-filter: blur(7px);
+    box-shadow: 0 .4rem .8rem #0005;
+    border-radius: .8rem;
+    overflow: hidden;
+}
+.table__body {
+    width: 95%;
+    max-height: calc(89% - 1.6rem);
+    background-color: #fffb;
+
+    margin: .8rem auto;
+    border-radius: .8rem;
+
+    overflow: auto;
+    overflow: overlay;
+}
+
+.table__body::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.table__body::-webkit-scrollbar-thumb{
+    border-radius: .5rem;
+    background-color: #0004;
+    visibility: hidden;
+}
+
+.table__body:hover::-webkit-scrollbar-thumb{ 
+    visibility: visible;
+}
+
+table {
+  
+    width: 100%;
+    height: 200vh;
+}
+svg{
+    margin-left:5vh;
+    color: blue;
+    background-color:#fffb ;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+
+
+
+table, th {
+    border-collapse: collapse;
+    font-size:large;
+    padding: 1em;
+    text-align:center;
+}
+table td{
+    
+    font-size:medium;
+   
+}
+td{
+    width:10%;
+    height: 100px;;
+    margin:.5em;   
+    vertical-align: middle;
+}
+
+
+thead th {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #d5d1defe;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #0000000b;
+}
+
+tbody tr {
+    --delay: .1s;
+    transition: .5s ease-in-out var(--delay), background-color 0s;
+}
+
+tbody tr.hide {
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+tbody tr:hover {
+    background-color: #fff6 !important;
+}
+
+
+
+.id {
+   
+    color: #006b21;
+}
+
+.id1{
+    
+    color: #b30021;
+}
+
+.id2 {
+    color: #006b21;
+   
+}
+.id3 {
+    
+    color: #b30021;
+  
+}
+
+.class{
+    background-color: #fff5;
+    
+}
+.class1{
+    
+    background-color:#fff6;
+
+}
+
+
+
+thead th:hover {
+    color: #6c00bd;
+}
+
+
+
+
+    </style>
+    </head>                 
+    <body>
+     <div id="id">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="https://creativecollege.in/LOGO%20FINAL.png" alt=" "  width="150"  height="70"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        
+                        <a class="nav-link active" aria-current="page" href="#"><b>Home</b></a>
+                      
+                      </li>
+                      <li class="nav-item">
+                        
+                        <a class="nav-link" href="#"><b>Back</b></a>
+                        
+                      </li>
+                      </ul>
+                  <form class="d-flex" role="search">
+                    
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                
+                        <button class="btn btn-outline-success " type="submit"><b>Search</b></button>
+                    
+                  </form>
+            </div>
+        </nav>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        
+     </div>
+   
+       <u><h1>Contact Details</h1></u>
+        <main class="table">         
+        <section class="table__body">
+            <table>
+                <thead>
+                    <tr>
+                        <th> Teachers Name</th>
+                        <th> Teachers Position</th>
+                        <th> contact no</th>
+                       
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mr.Gyanedra Sahoo </td>
+                        <td class="class"> Director</td>
+                        
+                        <td class="id">7894391500<svg xmlns="http://www.w3.org/2000/svg "width="4vh" height="3vh" fill="currentColor" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"/>
+                          </svg>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                       <td>Mr Bobbin Ch.Garnaik</td>
+                       <td class="class1">Administrative Officer</td>
+                       
+                       <td class="id1"> 9778427170<svg xmlns="http://www.w3.org/2000/svg" width="4vh" height="3vh" fill="currentColor" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                         
+                       </td>
+                    </tr>
+                    <tr>
+                       <td>Mr Krishnashis Mishra</td>
+                       <td class="class">Principal</td>
+                       
+                       <td class="id2">8249090003<svg xmlns="http://www.w3.org/2000/svg" width="4vh" height="3vh" fill="currentColor" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                      
+                       </td>
+                    </tr>
+                    <tr>
+                       <td>Mr Bhabani Sankar Sahoo</td>
+                       <td class="class1">Vice Principal,<br>Placement Officer,Chief Mentor BCA,<br>Project Manager_Technocrat</td>
+                       
+                       <td class="id3"> 9668844571<svg xmlns="http://www.w3.org/2000/svg" width="4vh" height="3vh" fill="currentColor" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                          
+                       </td>
+                    </tr>
+                    <tr>
+                       <td>Mr.Satya Shiba S.Dehury</td>
+                       <td class="class">Marketing Head</td>
+                       
+                       <td class="id">9439137384<svg xmlns="http://www.w3.org/2000/svg" width="4vh" height="3vh" fill="currentColor" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                          
+                       </td>
+                    </tr>
+                    <tr>
+                       <td> Mr.Anukul Deep Saraf</td>
+                       <td class="class1"> Mentor-BCA-2021</td>
+                       
+                       <td class="id3">9853698972<svg xmlns="http://www.w3.org/2000/svg" width="4vh" height="3vh" fill="currentColor" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                          
+                       </td>
+                    </tr>
+                    <tr>
+                       <td>Mr.Subhrajyoti Behera </td>
+                       <td class="class">Mentor BBA-2021,22</td>
+                       
+                       <td class="id2">  8327725559<svg xmlns="http://www.w3.org/2000/svg" width="4vh" height="3vh" fill="currentColor" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                         
+                       </td>
+                    </tr>
+                    <tr>
+                       <td>Mrs.Annapurna Nath</td>
+                       <td class="class1"> Senior Counselor</td>
+                       
+                       <td class="id1"> 6371239937<svg xmlns="http://www.w3.org/2000/svg" width="4vh" height="3vh" fill="currentColor" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                          
+                       </td>
+                    </tr>
+                    <tr>
+                       <td>Ms.Barsha Naik</td>
+                       <td class="class">Management Faculty</td>
+                       
+                       <td class="id2">  6371946250<svg xmlns="http://www.w3.org/2000/svg" width="4vh" height="3vh" fill="currentColor" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                        
+                       </td>
+                    </tr>
+                    
+                        <tr>
+                            <td>Mr.Subhrajyoti Behera </td>
+                            <td class="class">Mentor BBA-2021,22</td>
+                            
+                            <td class="id2">  8327725559<svg xmlns="http://www.w3.org/2000/svg" width="4vh" height="3vh" fill="currentColor" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
+                             <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"/>
+                           </svg>
+                              
+                            </td>
+                         </tr>
+                         <tr>
+                            <td>Mrs.Annapurna Nath</td>
+                            <td class="class1"> Senior Counselor</td>
+                            
+                            <td class="id1"> 6371239937<svg xmlns="http://www.w3.org/2000/svg" width="4vh" height="3vh" fill="currentColor" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
+                             <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"/>
+                           </svg>
+                               
+                            </td>
+                         </tr>
+                         <tr>
+                            <td>Ms.Barsha Naik</td>
+                            <td class="class">Management Faculty</td>
+                            
+                            <td class="id2">  6371946250<svg xmlns="http://www.w3.org/2000/svg" width="4vh" height="3vh" fill="currentColor" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
+                             <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"/>
+                           </svg>
+                             
+                            </td>
+                         </tr>
+                         
+                          
+                </tbody>
+            </table>
+        </section>
+     </main> 
+     
+   
+ </body>               
+</html>
